@@ -1,0 +1,27 @@
+/*
+Theme Name: Lordon
+Theme URI: http://lordon.com
+Author: Ruhul Amin
+Author URI: http://lordon.com/
+Description:This is my first lordon project.
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.shpOnProLeftImgCon img, .blogArcSinImg img {
+    //height: 500px;
+}
+.slide img{
+	//height:500px;
+}
+.blogArcSinImg, .shopInProImg {
+    height: 450px;
+}
+.width100{
+	height:450px;
+}

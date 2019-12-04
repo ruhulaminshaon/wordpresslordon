@@ -1,0 +1,294 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1280px) and (max-width : 1439px) {
+.postText p, .postText2 p,.shpOnProRigPeragraph, .newLinePromoCont, .homeBlogSingle, .blogAddsSidebarCont {
+  font-size: 14px;
+}
+.shpOnProRightCon {
+  padding-right: 13.5vw;
+  width: 44.44%;
+}
+.priBtn {
+  border-radius: 20px;
+}
+}
+@media only screen and (min-width : 768px) and (max-width : 1279px) {
+.priBtn {
+border-radius: 20px;
+}
+.blogPostInfoTxt a, .hMenu li a, .footerMenu li a{
+font-size:13px;
+}
+.postText2 p, .postCommentsCon p{
+line-height:20px !important;
+}
+.newLinePromoCont p, .postText p, .postText2 p, .postCommentsCon a, .searchForminputTxt, .shopInnProInfo span, .productfilterNavCon span, .productfilterNavCon a, .productDescSin p, .productCartDetails, .prodctRate , .shpOnProRigContent, .blogAddsSidebarCont, .homeBlogSingle, .sliderSinContent p, .cartLink, .shpOnProRigButtonsCon{
+  font-size: 14px;
+  line-height:20px;
+}
+.shpOnProRightCon {
+  padding-right: 0;
+  width: 49.44%;
+}
+.homeBlogArcContent {
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+.blogAddsSidebarCont {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1.57vw;
+}
+.shpOnProRigButtonsCon {
+  padding-top: 10px;
+}
+.blogPostInfoTxt {
+  padding-right: 10px;
+}
+.newLinePromoCont.width620P {
+  width: 60.29vw;
+}
+.footerAddressCon p, .footerCopyRightCon p {
+  font-size: 12px;
+}
+.blogArcSinPostInfoCon {
+  padding-top: 10px;
+}
+.prodctRate span::after {
+  height: 30px;
+}
+.sliderSinContent{
+width:70vw;
+}
+}
+@media only screen and (min-width : 320px) and (max-width : 991px) {
+.blogAddsSidebarCont p{
+text-align:center
+}
+.blogAddsSidebarCont {
+  width: 100%;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 320px)  and (max-width : 767px){
+.headerSocialIcon {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header_logo a img, .footerlogo a img {
+  display: table;
+  margin: 0 auto;
+  width: auto;
+}
+.headerAddToCartCon {
+  margin-top: -7.81vw;
+}
+.cartLink span, .headerSearchFormCon input, .hMenu li a, .newLinePromoCont p, .blogPostInfoTxt a, .footerCopyRightCon p, .footerAddressCon p, .footerMenu a, .mobileMenuTxt, .postText p, .postText2 p, .postCommentsCon a , .productfilterNavCon span, .productfilterNavCon a, .shopInnProInfo span , .productCartDetails, .prodctRate, .productCartDetails, .prodctRate span i, .homeBlogSingle p, .homeBlogSingle a, .blogAddsSidebarCont p, .shpOnProRigPeragraph, .shpOnProRigButtonsCon a, .sliderConTxt, .blogArcSinglePostCon a, .shopInnProSin h2, .productSingleContent h2{
+  font-size: 13px;
+}
+.blogArcSinCon h2 {
+  font-size: 20px;
+}
+.newLinePromoCont{
+width:87vw;
+}
+.blogArcSinCon p , .newLinePromoCont p, .productCartDetails{
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.postText p, .postText2 p, .postCommentsCon a, .blogAddsSidebarCont p, .shpOnProRigPeragraph{
+line-height:20px;
+}
+.footerMenu li {
+  bottom: 0 !important;
+  left: 0 !important;
+  position: relative;
+  top: 0 !important;
+}
+.footerAddressCon h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.footerAddressCon > p, .homeBlogSingle p, .sliderConTxt {
+  line-height: 20px;
+}
+.footerSocial {
+  text-align: left;
+  margin-top: 30px;
+}
+.blogArcSinPostInfoCon {
+  margin-bottom: 20px;
+}
+.secondaryBtn {
+  border-radius: 20px;
+  font-size:12px;
+  padding:3px 10px;
+}
+.productfilterNavCon {
+  text-align: left;
+}
+.productDescSin p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.prodctRate span::after {
+  height: 30px;
+}
+.productCartDetails div p {
+  margin-bottom: 10px;
+}
+.productCartBtn {
+  padding-top: 4.2vw;
+}
+.shopInnProSin, .productDescSin {
+  margin-bottom: 20px;
+}
+.productDescSin p span {
+  font-size: 13px;
+  line-height: 20px;
+}
+.homeBlogArcContent {
+padding-right:0;
+margin-bottom:20px;
+}
+.shpOnProLeftCon, .shpOnProRightCon {
+  box-sizing: border-box;
+  width: 100%;
+  padding:0;
+  text-align:Center;
+}
+.shpOnProRigButtonsCon {
+  padding: 10px;
+}
+.sliderTitle {
+  font-size: 20px;
+  text-align: center;
+}
+.priBtn{
+border-radius:20px;
+}
+.sliderSinContent{
+width:70vw;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+.header_logo > a {
+  display: block;
+  margin-bottom: 20px;
+  width: 70vw;
+}
+.hMenu {
+  display: block;
+  justify-content: space-between;
+}
+.hMenu > li {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.mobileMenu > span::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10.5px;
+  width: 100%;
+}
+.mobileMenu > span::after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+.mobileMenu > span {
+  background: #000 none repeat scroll 0 0;
+  display: inline-block;
+  height: 2px;
+  margin: 8px 10px;
+  position: relative;
+  width: 30px;
+}
+.mobileMenu {
+  cursor: pointer;
+  display: table;
+  margin: 0 auto 10px;
+}
+.hMenu{
+display:none;
+}
+.footerMenu{
+height:auto;
+}
+.footerlogo {
+  margin-bottom: 20px;
+}
+.header_logo a img, .footerlogo a img {
+  width: 100%;
+}
+.headerAddToCartCon {
+  margin-top: -15.81vw;
+}
+.blogPostInfoCon span {
+  display: block;
+  line-height: 20px;
+}
+.newLinePromoCon h2 {
+  font-size: 20px;
+}
+.sliderSection {
+  height: 50.75vw;
+  overflow: hidden;
+}
+.sliderImgCon img{
+width:auto;
+}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
